@@ -57,11 +57,6 @@ $(document).ready(function(){
                 </div>
             </div>
         `;
-
-	    var description = $(this).closest('.img-wrapper').find('h5').text();
-	    // Update the modal body with the new image source and description
-	    $('#imageModal .modal-body img').attr('src', imgSrc);
-	    $('#imageModal .modal-body .image-description').text(description);
         // Remove any existing modals
         $('.modal').remove();
         // Append modal markup to body
