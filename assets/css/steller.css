@@ -573,6 +573,42 @@ pre code {
     z-index: 1000;
 }
 
+/* Custom modal styles */
+.modal-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 20px 25px;
+}
+
+.modal-header .btn-close {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.modal-header .btn-close:hover {
+    opacity: 1;
+}
+
+.modal-body {
+    padding: 25px;
+}
+
+.modal-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
