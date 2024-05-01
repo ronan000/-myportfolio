@@ -11,7 +11,16 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-
+// Disable right-click
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+    // Show the warning pane
+    $('#rightClickWarning').fadeIn(200);
+    // Hide the warning pane after 3 seconds
+    setTimeout(function(){
+        $('#rightClickWarning').fadeOut(200);
+    }, 3000);
+});
 
 
 // smooth scroll
